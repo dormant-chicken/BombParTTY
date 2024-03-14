@@ -194,23 +194,27 @@ int main(int argc, char* argv[])
                 if(input.find(message) != std::string::npos) {
                     check++;
                 }
+                else {
+                    check = 0;
+                    input = "";
+                    redraw_screen(term_max_y, term_max_x, start_x, start_y, message, term_max_y / 2, term_max_x / 2 - (std::size(message) / 2));
+                    
+                    break;
+                }
 
                 // loops through dictionary to check if input is real word
                 for(int i = 0; i < length; i++) {
                     if(dictionary[i] == input) {
                         check++;
+
                         break;
                     }
                 }
 
-                // clear input if requirements above are not satisfied
-                switch(check) {
-                    case 2:
-                        message = letter_set[rand() % set_length];
-                        // also increase points
-                        points++;
-                        break;
-
+                // increase points and make new set of letters
+                if(check == 2) {
+                    message = letter_set[rand() % set_length];
+                    points++;
                 }
                 
                 check = 0;
