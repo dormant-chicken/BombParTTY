@@ -7,6 +7,8 @@
 * [Installation](https://github.com/dormant-chicken/BombParTTY?tab=readme-ov-file#installation)
   
     * [Dependencies](https://github.com/dormant-chicken/BombParTTY?tab=readme-ov-file#dependencies)
+    
+    * [Newest git](https://github.com/dormant-chicken/BombParTTY?tab=readme-ov-file#newest-git)
       
 * [Makefile options](https://github.com/dormant-chicken/BombParTTY?tab=readme-ov-file#makefile-options)
   
