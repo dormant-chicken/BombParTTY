@@ -1,5 +1,8 @@
 # BombParTTY
 
+![bomb-partty](https://github.com/dormant-chicken/BombParTTY/blob/main/assets/bomb-partty.png)
+![bomb-partty2](https://github.com/dormant-chicken/BombParTTY/blob/main/assets/bomb-partty2.png)
+
 ## Table of contents
 
 * [About](https://github.com/dormant-chicken/BombParTTY?tab=readme-ov-file#about)
