@@ -1,7 +1,7 @@
 CC=g++
 
 all: src/main.cpp
-	$(CC) -o src/bomb-partty -lncurses src/main.cpp
+	$(CC) src/main.cpp -lncurses -o src/bomb-partty
 
 install: src/main.cpp src/bomb-partty
 	mkdir /usr/local/bin/bomb-partty-bin/
